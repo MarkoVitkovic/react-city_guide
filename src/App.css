@@ -1,3 +1,10 @@
+:root{
+  --dark: #5F5F5F;
+  --bright: #E3E3E3;  
+  --gradient: linear-gradient(#E3E3E3 90%,#5F5F5F);
+  --mainGray: #6d6d6d;
+  --gold: 	#F0F8FF;
+}
 .navbar{
     background-image: linear-gradient(#E3E3E3 80%,#5F5F5F);
 }
@@ -6,4 +13,56 @@
     margin: 2px;
     margin-left: 15px;
     margin-right: 15px;
+    
 }
+.background{
+  background-image: url(./components/assets/blank.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner {
+  display: inline-block;
+  background: #E3E3E3;
+  color: #5F5F5F;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  padding: 2rem 10rem;
+  border: 3px solid #5F5F5F ;
+  margin-left: 650px;
+  margin-right: 650px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+.banner h1 {
+  font-size: 5rem;
+}
+.banner div {
+  width: 10rem;
+  height: 5px;
+  background: #5F5F5F;
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  color: #5F5F5F;
+  background: #E3E3E3;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #5F5F5F;
+  transition: 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button:hover {
+  background: #5F5F5F;
+  color: #E3E3E3;
+}
+
+
