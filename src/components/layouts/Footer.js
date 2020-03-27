@@ -56,7 +56,7 @@ export default function Footer() {
 }
 const FooterCon = styled.footer`
 .footer-middle{
-    background: var(--gradient);
+    background: white;
     padding-top: 3rem;
     color: var(--dark);
 }
