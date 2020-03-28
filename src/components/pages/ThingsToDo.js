@@ -4,8 +4,9 @@ export default class ThingsToDo extends Component {
     render() {
         return (
             <div>
-                todo
+            
             </div>
+            
         )
     }
 }
