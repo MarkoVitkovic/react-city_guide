@@ -8,6 +8,13 @@
 .navbar{
     background: white;
 }
+.navbar-toggler:focus{
+ outline: none;
+
+}
+.navbar-toggler{
+  border: none;
+}
 .style{
     width: 35px;
     margin: 2px;
@@ -201,8 +208,8 @@ section {
 }
 
 .frontside .card .card-body img {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 .button-card {
