@@ -229,7 +229,68 @@ section {
   text-decoration: none;
 }
 /*end of card view*/
+/*details*/
+.about-place {
+  padding: 5rem 0 0 0;
+}
+.about-place-info {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem auto;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.details,
+.info {
+  margin: 1rem 0;
+}
+.details h3 {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+.details p {
+  line-height: 1.5;
+}
+.info h3,
+.info h6 {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
 
+.info h6 {
+  font-weight: 300;
+}
+.main-extras {
+  width: 80vw;
+  margin: 0 auto 3rem auto;
+}
+.main-extras h6 {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+.extras {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+@media screen and (min-width: 992px) {
+  .about-place-info,
+  .main-extras {
+    width: 95vw;
+    max-width: 1170px;
+  }
+  .about-place-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .info {
+    padding-left: 3rem;
+  }
+}
+/*end of details*/
 
 
 

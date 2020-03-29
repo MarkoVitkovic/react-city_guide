@@ -12,13 +12,15 @@ export default class Food extends Component {
                             <h1>Food and drink</h1>
                             <div />
                         </div>
-                        <InfoConsumer>
-                        {
-                            value => {return value.food.map(item => {
-                                return <Info key={item.id} item={item} />
-                            })}
-                        }
-                        </InfoConsumer>
+                        <div style={{display: "flex", justifyContent: "center", marginTop: "2rem"}}>            
+                            <InfoConsumer>
+                            {
+                                value => {return value.food.map(item => {
+                                    return <Info key={item.id} item={item} />
+                                })}
+                            }
+                            </InfoConsumer>
+                        </div>
                     </div>
         )
     }
