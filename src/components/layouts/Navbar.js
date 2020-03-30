@@ -31,9 +31,6 @@ function Navbar() {
                         <Link className="nav-link text-uppercase ml-2" to="/news"><i className="fas fa-newspaper"></i> News</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-uppercase ml-2" to="/thingstodo"><i className="fas fa-th-list"></i> Things to do</Link>
-                    </li>
-                    <li className="nav-item">
                         <Link className="nav-link text-uppercase ml-2" to="/hotels"><i className="fas fa-hotel"></i> Hotels</Link>
                     </li>
                     <li className="nav-item">
