@@ -11,7 +11,7 @@ export default class Hotels extends Component {
                 <div />
                 <p>We've pre-picked the best hotels, hostels and bed and breakfasts to <br/> make your stay as enjoyable as possible.</p>
                 </div>            
-                <div style={{display: "flex", justifyContent: "center", marginTop: "2rem"}}>            
+                <div style={{display: "flex", justifyContent: "center", marginTop: "2rem",flexWrap: "wrap"}}>            
                 <InfoConsumer>
                 {
                     value => {return value.info.map(item => {

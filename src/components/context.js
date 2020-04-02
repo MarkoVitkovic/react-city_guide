@@ -9,9 +9,30 @@ class InfoProvider extends Component {
         info: placeInfo,
         food: foodInfo,
         reviews: reviews,
-        detailsInfoFood: detailInfoFood,
+        detailInfoFood: detailInfoFood,
         detailInfoHotels: detailInfoHotels,
         news: news
+    }
+    getItem = id => {
+        const item = this.state.info.find(item => item.id === id)
+        return item;
+    }
+    getFood = id => {
+        const item = this.state.food.find(item => item.id === id)
+        return item;
+    }
+    
+    handleDetailFood = id => {
+        const item = this.getFood(id);
+        this.setState(() => {
+            return {detailInfoFood: item}
+        })
+    }
+    handleDetailHotels = id => {
+        const item = this.getItem(id);
+        this.setState(() => {
+            return {detailInfoHotels: item}
+        })
     }
 
     render() {
@@ -29,7 +50,9 @@ class InfoProvider extends Component {
                     news: this.state.news,
                     name: this.state.name,
                     avatar: this.state.avatar,
-                    comment: this.state.comment
+                    comment: this.state.comment,
+                    handleDetailFood: this.handleDetailFood,
+                    handleDetailHotels: this.handleDetailHotels
                }}>
                {this.props.children}
            </InfoContext.Provider>

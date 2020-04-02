@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 export default class Info extends Component {
     render() {
         const {
+            id,
             headerTitle, 
             headerSubTitle,
             img,
@@ -12,8 +13,8 @@ export default class Info extends Component {
         } = this.props.item;
         return (
             <InfoConsumer>
-            {data => (
-                <div id="card" className="pb-5 col-3 col-m-1">
+            {value => (
+                <div id="card"  className="pb-5 col-12 col-sm-12 col-md-4 col-lg-3 col-m-1">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -33,7 +34,7 @@ export default class Info extends Component {
                                             <div className="card-body text-center mt-4">
                                                 <h4 className="card-title">{headerTitle}</h4>
                                                 <p className="card-text">{headerText}</p>
-                                                <Link to="/details" className="button-card">
+                                                <Link onClick={() => value.handleDetailHotels(id)} to="/details" className="button-card">
                                                     Details
                                                 </Link>
                                             </div>
