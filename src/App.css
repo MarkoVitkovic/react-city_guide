@@ -69,6 +69,7 @@
 .button:hover {
   background: #5F5F5F;
   color: #E3E3E3;
+  text-decoration: none;
 }
 /*hotels page*/
 .hotels{
@@ -291,7 +292,30 @@ section {
   }
 }
 /*end of details*/
-
+/*news*/
+.news{
+  text-align: center;
+  justify-content: center;
+  background-image: url(./components/assets/news.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 45px;
+}
+.news h1{
+  font-size: 50px;
+  padding-top:150px;
+  color:var(--dark);
+}
+.news div{
+    width: 5rem;
+    height: 5px;
+    background: red;
+    margin: 1.7rem auto;
+    margin-top: 40px;
+}
+/*end of news*/
 
 
 
