@@ -75,7 +75,7 @@
 .hotels{
   text-align: center;
   justify-content: center;
-  background-image: url(./components/assets/hotel1.jpg);
+  background-image: url(./components/assets/site-image/hotel1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,7 +103,7 @@
 .food{
   text-align: center;
   justify-content: center;
-  background-image: url(./components/assets/food.jpg);
+  background-image: url(./components/assets/site-image/food.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -296,7 +296,7 @@ section {
 .news{
   text-align: center;
   justify-content: center;
-  background-image: url(./components/assets/news.jpg);
+  background-image: url(./components/assets/site-image/news.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -316,6 +316,9 @@ section {
     margin-top: 40px;
 }
 /*end of news*/
+
+
+  
 
 
 
