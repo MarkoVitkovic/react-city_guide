@@ -145,7 +145,7 @@ header {
 .car-img{
   height: 500px;
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 450px){
   .car-img{
     height: 200px;
   }

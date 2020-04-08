@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import food from '../assets/site-image/food.jpg'
-import news from '../assets/site-image/news.jpg'
+import Strmac from '../assets/site-image/strmac.jpg'
+import Cernik from '../assets/site-image/cernik.jpg'
+import Ng from '../assets/site-image/ng.jpg'
+import Park from '../assets/site-image/park.jpg'
 
 export default class Highlights extends Component {
     render() {
@@ -15,39 +17,52 @@ export default class Highlights extends Component {
                         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-2" data-slide-to="1"></li>
                         <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-2" data-slide-to="3"></li>
                     </ol>
                 
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                         <div class="view">
-                            <img class="d-block w-100 car-img" src={food} alt="First slide"/>
+                            <img class="d-block w-100 car-img" src={Strmac} alt="First slide"/>
                             <div class="mask rgba-black-light"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Light mask</h3>
-                            <p>First text</p>
+                            <h3 class="h3-responsive">Strmac</h3>
+                            <p>Beautiful excursion</p>
                         </div>
                         </div>
                         <div class="carousel-item">
                         
                         <div class="view">
-                            <img class="d-block w-100 car-img" src={news} alt="Second slide"/>
+                            <img class="d-block w-100 car-img" src={Cernik} alt="Second slide"/>
                             <div class="mask rgba-black-strong"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Strong mask</h3>
-                            <p>Secondary text</p>
+                            <h3 class="h3-responsive">Cernik</h3>
+                            <p>Next village</p>
                         </div>
                         </div>
                         <div class="carousel-item">
                         
                         <div class="view">
-                            <img class="d-block w-100 car-img" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide"/>
+                            <img class="d-block w-100 car-img" src={Ng} alt="Third slide"/>
                             <div class="mask rgba-black-slight"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Slight mask</h3>
-                            <p>Third text</p>
+                            <h3 class="h3-responsive">High School Nova Gradiska</h3>
+                            <p>High School in center</p>
+                        </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+                        <div class="view">
+                            <img class="d-block w-100 car-img" src={Park} alt="Fourth slide"/>
+                            <div class="mask rgba-black-slight"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Central park</h3>
+                            <p>Central Park in center of the city</p>
                         </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Some_text extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="id" className="container">
                 <div className="aboutng">
                     <h1>Welcome to Nova Gradiska</h1>
                     <div />

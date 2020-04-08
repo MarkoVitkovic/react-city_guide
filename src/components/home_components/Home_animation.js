@@ -14,8 +14,8 @@ export default class Home_animation extends Component {
                                 <div class="w-100 text-white">
                                 <h1 class="display-2 font-weight-bold">Nova Gradiska</h1>
                                 <p class="lead mb-0">The man who wants to leave the city where he lives is not happy!</p>
-                                <button class="btn btn-light">Slide up</button>
-                                </div>
+                                <a href="#id"><button class="btn btn-light">Slide down</button></a>
+                            </div>
                         </div>
                     </div>
           </header>
