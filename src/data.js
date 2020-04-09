@@ -19,8 +19,12 @@ export const placeInfo = [
         "Room service",
         "Free breakfast",
         "Comfortable beds"
-      ]
-  
+      ],
+    maxCapacity: '10 people',
+    price: '520HRK(80€)',
+    phone: '035 362 722',
+    address: 'Trg kralja Tomislava 3',
+    email: 'hotel@hotel-kralj-tomislav.hr'
     },
   {
     id: 2,
@@ -141,6 +145,9 @@ export const detailInfoHotels = {
     ],
     maxCapacity: '10 people',
     price: '520HRK(80€)',
+    phone: '035 362 722',
+    address: 'Trg kralja Tomislava 3',
+    email: 'hotel@hotel-kralj-tomislav.hr'
   };
 //end of deatils hotel
 //details food
