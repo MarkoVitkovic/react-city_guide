@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { InfoConsumer } from '../context'
 import NewsCard from '../NewsCard'
-import Img from '../assets/site-image/cernik.jpg'
+import Img from '../assets/site-image/news.jpeg'
 
 
 
