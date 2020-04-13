@@ -12,6 +12,8 @@ import Details from './components/pages/Details';
 import Hotels from './components/pages/Hotels';
 import ContactUs from './components/pages/ContactUs';
 import NotFound from './components/pages/NotFound';
+import DetailsFood from './components/pages/DetailsFood';
+import DetailsNightlife from './components/pages/DetailsNightlife'
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <Route path="/news" component={News}/>
         <Route path="/food" component={Food}/>
         <Route path="/nightlife" component={Nightlife}/>
-        <Route path="/details" component={Details}/>
+        <Route path="/detailshotels" component={Details}/>
+        <Route path="/detailsfood" component={DetailsFood}/>
+        <Route path="/detailsnightlife" component={DetailsNightlife}/>
         <Route path="/hotels" component={Hotels}/>
         <Route path="/contactus" component={ContactUs}/>
         <Route component={NotFound}/>

@@ -4,7 +4,6 @@ import { InfoConsumer } from './context'
 export default class ReviewCard extends Component {
     render() {
         const{
-            id,
             name,
             avatar,
             comment
@@ -12,7 +11,7 @@ export default class ReviewCard extends Component {
         return (
             <InfoConsumer>
                 {data => (
-                    <div className="media mt-5">
+                    <div className="card review-card media mt-3 p-3">
                         <img src={avatar} alt={name} className="mr-3" style={{width: '40px'}}/>
                         <div className="media-body">
                             <h5 className="mt-1">{name}</h5>

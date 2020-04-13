@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { placeInfo, reviews, detailInfoHotels, news, foodInfo, detailInfoFood } from '../data';
+import { placeInfo, reviews, detailInfoHotels, news, foodInfo, detailInfoFood, nightlifeInfo, detailInfoNightlife } from '../data';
 
 const InfoContext = React.createContext();
 
@@ -8,9 +8,11 @@ class InfoProvider extends Component {
     state = {
         info: placeInfo,
         food: foodInfo,
+        nightlife: nightlifeInfo, 
         reviews: reviews,
         detailInfoFood: detailInfoFood,
         detailInfoHotels: detailInfoHotels,
+        detailInfoNightlife: detailInfoNightlife,
         news: news
     }
     getItem = id => {
@@ -19,6 +21,10 @@ class InfoProvider extends Component {
     }
     getFood = id => {
         const item = this.state.food.find(item => item.id === id)
+        return item;
+    }
+    getNightlife = id => {
+        const item = this.state.nightlife.find(item => item.id === id)
         return item;
     }
     
@@ -34,25 +40,27 @@ class InfoProvider extends Component {
             return {detailInfoHotels: item}
         })
     }
+    handleDetailNightlife = id => {
+        const item = this.getNightlife(id);
+        this.setState(() => {
+            return {detailInfoNightlife: item}
+        })
+    }
 
     render() {
         return (
            <InfoContext.Provider value={{
                     info: this.state.info,
                     food: this.state.food,
-                    reviews: this.state.reviews,
-                    maps: this.state.maps,
-                    headerTitle: this.state.headerTitle,
-                    headerSubTitle: this.state.headerSubTitle,
-                    headerText: this.state.headerText,
+                    nightlife: this.state.nightlife,
                     detailInfoHotels: this.state.detailInfoHotels,
                     detailInfoFood: this.state.detailInfoFood,
+                    detailInfoNightlife: this.state.detailInfoNightlife,
+                    reviews: this.state.reviews,
                     news: this.state.news,
-                    name: this.state.name,
-                    avatar: this.state.avatar,
-                    comment: this.state.comment,
                     handleDetailFood: this.handleDetailFood,
-                    handleDetailHotels: this.handleDetailHotels
+                    handleDetailHotels: this.handleDetailHotels,
+                    handleDetailNightlife: this.handleDetailNightlife
                }}>
                {this.props.children}
            </InfoContext.Provider>

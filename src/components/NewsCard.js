@@ -4,7 +4,7 @@ import Img from './assets/site-image/strmac.jpg'
 
 export default class News extends Component {
     render() {
-        const { id, newsTitle, newsText} = this.props.item;
+        const { newsTitle, newsText} = this.props.item;
         return (
             <InfoConsumer>
                 {value => (

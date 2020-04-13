@@ -10,7 +10,7 @@ export default class contacts extends Component {
                     </div>
                     <div className="row">
                     <div className="col-md-7">
-                        <iframe src="https://www.google.com/maps/d/embed?mid=1XhS7FkjW6zQoIKzd2v1pFsCbq9-jhpde" style={{border: '0', width: '100%', height: '350px', frameborder: '0'}} allowFullScreen/>
+                        <iframe title="map" src="https://www.google.com/maps/d/embed?mid=1XhS7FkjW6zQoIKzd2v1pFsCbq9-jhpde" style={{border: '0', width: '100%', height: '350px', frameborder: '0'}} allowFullScreen/>
                     </div>
                     <div className="col-md-5">
                         <h4><strong>Contact Us</strong></h4>
@@ -25,7 +25,7 @@ export default class contacts extends Component {
                                 <input type="tel" className="form-control" placeholder="Phone"/>
                             </div>
                             <textarea cols="30" rows="3" placeholder="Message" className="form-control"/>
-                            <input className="button text-uppercase mt-3" type="submit" value="Send"/>                            
+                            <input className="btn btn-outline-primary mt-3" type="submit" value="Send"/>                            
                         </form>
                     </div>
                     </div>

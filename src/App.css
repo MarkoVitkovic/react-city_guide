@@ -1,10 +1,3 @@
-:root{
-  --dark: #5F5F5F;
-  --bright: #E3E3E3;  
-  --gradient: linear-gradient(#E3E3E3 90%,#5F5F5F);
-  --mainGray: #6d6d6d;
-  --gold: 	#F0F8FF;
-}
 .navbar{
     background: white;
 }
@@ -126,68 +119,7 @@
 }
 
 /*end food*/
-/*details*/
-.about-place {
-  padding: 5rem 0 0 0;
-}
-.about-place-info {
-  width: 80vw;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 2rem auto;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-.details,
-.info {
-  margin: 1rem 0;
-}
-.details h3 {
-  text-transform: capitalize;
-  letter-spacing: 0.2rem;
-}
-.details p {
-  line-height: 1.5;
-}
-.info h3,
-.info h6 {
-  text-transform: capitalize;
-  letter-spacing: 0.2rem;
-}
 
-.info h6 {
-  font-weight: 300;
-}
-.main-extras {
-  width: 80vw;
-  margin: 0 auto 3rem auto;
-}
-.main-extras h6 {
-  text-transform: capitalize;
-  letter-spacing: 0.2rem;
-}
-.extras {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
-}
-@media screen and (min-width: 992px) {
-  .about-place-info,
-  .main-extras {
-    width: 95vw;
-    max-width: 1170px;
-  }
-  .about-place-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
-  }
-  .info {
-    padding-left: 3rem;
-  }
-}
-/*end of details*/
 /*news*/
 .news{
   background-image: url(./components/assets/site-image/news.jpeg);
@@ -272,7 +204,6 @@
 .nightlife-text h1{
   font-size: 50px;
   color:var(--dark);
-  letter-spacing: .2rem;
 }
 .nightlife-text div{
     width: 5rem;
@@ -281,9 +212,87 @@
     margin: 1.7rem auto;
     margin-top: 40px;
 }
-
-
-
+/*end of nightlife*/
+/*rewiew card*/
+.review-card{
+  background-image: linear-gradient(to left, #dfe9f3 0%, white 100%);
+}
+/*end of review card*/
+/*details food*/
+.detail-food-image{
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 50px;
+}
+.food-single-images img {
+  width: 350px;
+  height: 200px;
+  margin: 10px;
+ }
+ .title-food{
+   text-align: center;
+   font-family: 'Raleway', sans-serif; 
+   padding-top: 50px;
+ }
+ .title-food h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.title-food h4 h5{
+  font-size: 1.2rem;
+}
+.spliter-details{
+  width: 90%;
+  height: 2px;
+  background: #F0F8FF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-place {
+  padding: 5rem 0 0 0;
+  font-family: 'Raleway', sans-serif; 
+}
+.map-rev{
+  font-family: 'Raleway', sans-serif; 
+}
+.about-place-info {
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+.details,
+.info {
+  margin: 1rem 0;
+}
+.main-extras {
+  width: 80vw;
+  margin: 0 auto 3rem auto;
+}
+.extras {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+@media screen and (min-width: 992px) {
+  .about-place-info,
+  .main-extras {
+    width: 95vw;
+    max-width: 1170px;
+  }
+  .about-place-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .info {
+    padding-left: 3rem;
+  }
+}
 
 
 

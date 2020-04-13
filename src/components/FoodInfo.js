@@ -19,32 +19,32 @@ export default class Info extends Component {
         return (
             <InfoConsumer>
             {value => (
-                <section class="section-tours">
-                <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <div class="my-flip-container">
-                        <div class="my-flip-inner my-flip-right">
-                            <div class="my-flip-inner-wrapper">
-                            <div class="my-flip-side my-flip-front">
-                                <div class="my-flip-image my-flip-image--1">
-                                    <img src={img}/>                                 
+                <section className="section-tours">
+                <div className="row">
+                <div className="col-lg-4 mb-4">
+                    <div className="my-flip-container">
+                        <div className="my-flip-inner my-flip-right">
+                            <div className="my-flip-inner-wrapper">
+                            <div className="my-flip-side my-flip-front">
+                                <div className="my-flip-image my-flip-image--1">
+                                    <img src={img} alt=""/>                                 
                                 </div>
-                                <div class="my-flip-details">
-                                    <h4 class="my-flip-heading">
+                                <div className="my-flip-details">
+                                    <h4 className="my-flip-heading">
                                         {headerTitle}
                                     </h4>
-                                    <div class="my-flip-text">
+                                    <div className="my-flip-text">
                                         <p>{headerText}</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="my-flip-side my-flip-back my-flip-back-1">
-                                <div class="my-flip-back-inner">
-                                    <div class="my-flip-price">
+                            <div className="my-flip-side my-flip-back my-flip-back-1">
+                                <div className="my-flip-back-inner">
+                                    <div className="my-flip-price">
                                         <h4>From</h4>
                                         <h3>{price}</h3>
                                     </div>
-                                    <div class="my-flip-back-text">
+                                    <div className="my-flip-back-text">
                                         <ul>
                                         <li>{headerTitle}</li>
                                         <li>{headerSubTitle}</li>
@@ -53,8 +53,8 @@ export default class Info extends Component {
                                         <li>{phone}</li>
                                         </ul>
                                     </div>
-                                    <div class="my-flip-btn-box">
-                                        <Link onClick={() => value.handleDetailFood(id)} to="/details" className="my-flip-btn">
+                                    <div className="my-flip-btn-box">
+                                        <Link onClick={() => value.handleDetailFood(id)} to="/detailsfood" className="my-flip-btn">
                                             Details
                                         </Link>
                                     </div>

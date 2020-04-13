@@ -9,7 +9,6 @@ export default class Details extends Component {
             <InfoConsumer>
                 {data =>{
                     const{
-                        id,
                         headerTitle,
                         headerSubTitle,
                         headerText,
@@ -28,23 +27,6 @@ export default class Details extends Component {
                             <h1 className="display-1 font-weight-bold">{headerTitle}</h1> 
                             <h4 className="display-5">{headerSubTitle}</h4>
                             <p>{headerText}</p>
-                            {/*icons*/}
-                            < div className="container mt-5">
-                                <div className="row justify-content-center">
-                                    <div className="col-2">
-                                       <i className="fab fa-facebook"/> 
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="fab fa-twitter"></i> 
-                                    </div>
-                                    <div className="col-2">
-                                    <   i className="fab fa-instagram"></i> 
-                                    </div>
-                                    <div className="col-2">
-                                       <i className="fab fa-facebook-messenger"/> 
-                                    </div>
-                                </div>
-                            </ div>
                         </DetailsStyle>
                             {/*links*/}
                             <div className="container">
@@ -78,13 +60,11 @@ export default class Details extends Component {
                                                 <h3>info</h3>
                                                 <h6>price : {price}</h6>
                                                 <h6>max capacity : {maxCapacity} </h6>
-                                                <h6></h6>
-                                                <h6></h6>
                                             </article>
                                             </div>
                                         </section>
                                         <section className="main-extras">
-                                            <h6 className="text-left">extras</h6>
+                                            <h3 className="text-left">Extras</h3>
                                             <ul className="extras text-left">
                                             {extras.map((item,index) => {return <li key={index}>- {item}</li>})}
                                             </ul>
@@ -96,7 +76,7 @@ export default class Details extends Component {
                                    </div>
                                     {/*Map*/}
                                     <div className="tab-pane mt-5" role="tabpanel" id="map">
-                                       <iframe src={maps} style={{border: '0',height:'28.125rem',width: '100%', frameborder: '0' }}/>
+                                       <iframe title="map" src={maps} style={{border: '0',height:'28.125rem',width: '100%', frameborder: '0' }}/>
                                    </div>
                                 </div>
                             </div>
