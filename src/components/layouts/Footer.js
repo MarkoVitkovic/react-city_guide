@@ -8,23 +8,25 @@ export default function Footer() {
             <div className="footer-middle">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
-                            <h4>Subscribe</h4>
-                            <ul className="list-unstyled">
-                                <li>text</li>
-                                <li>text</li>
-                                <li>text</li>
-                                <li>text</li>
+                        <div className="col-md-3 col-sm-6 footer">
+                            <h4>Visit Nova Gradiska</h4>
+                            <ul className="info-footer">
+                                <li>  Ul. Svetog Roka 99, Cernik</li>
+                                <li>  Phone: 091 620 6207</li>
+                                <li>  Email: marko.vitkovic@outlook.com</li>
+                                <li>  Web: <a href="https://novagradiska-citytour.netlify.com/">Nova Gradiska</a></li>
+                                <li>  Share and Connect With Us!</li>
                             </ul>
                         </div>
-                        <div className="col-md-3 col-sm-6">
-                            <h4>text text</h4>
-                            <ul className="list-unstyled">
-                                <li><a href="/">text</a></li>
-                                <li><a href="/">text</a></li>
-                                <li><a href="/">text</a></li>
-                                <li><a href="/">text</a></li>
-                            </ul>
+                        <div className="col-md-3 col-sm-6 footer">
+                            <h4>Main Categories</h4>
+                            <div className="categories-footer">
+                                <p className="pp"><Link to="/" className="dark-font">Home</Link></p>
+                                <p><Link to="/news" className="dark-font">News</Link></p>
+                                <p><Link to="/hotels" className="dark-font">Hotels</Link></p>
+                                <p><Link to="/nightlife" className="dark-font">Nightlife</Link></p>
+                                <p><Link to="/food" className="dark-font">Food</Link></p>
+                            </div>
                         </div>
                         <div className="col-md-3 col-sm-6 footer">
                             <h4>Socials</h4>
