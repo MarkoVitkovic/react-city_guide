@@ -25,6 +25,7 @@ export default class DetailsFood extends Component {
                         <div className="food-details">
                             <div className="title-food-main">
                                 <h1>{headerTitle}</h1>
+                                <div className="divred" />
                             </div>
                         </div>
                         <div className="container">

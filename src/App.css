@@ -82,14 +82,3 @@
 
 
 
-.main-extras {
-  width: 80vw;
-  margin: 0 auto 3rem auto;
-}
-.extras {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
-}

@@ -26,7 +26,12 @@ export const placeInfo = [
     price: '520HRK(80€)',
     phone: '035 362 722',
     address: 'Trg kralja Tomislava 3',
-    email: 'hotel@hotel-kralj-tomislav.hr'
+    email: 'hotel@hotel-kralj-tomislav.hr',
+    images: [
+      '.././images/hotels/1.jpeg',
+      '.././images/hotels/2.jpeg',
+      '.././images/hotels/3.jpeg'
+     ]
     },
   {
     id: 2,
@@ -53,7 +58,12 @@ export const placeInfo = [
       price: '150HRK(20€)',
       phone: '099 326 3782',
       address: 'Alojzija Stepinca 7',
-      email: 'laganining@gmail.com'
+      email: 'laganining@gmail.com',
+      images: [
+        '.././images/hotels/4.jpeg',
+        '.././images/hotels/5.jpeg',
+        '.././images/hotels/6.jpeg'
+       ]
   
     },
   {
@@ -81,7 +91,12 @@ export const placeInfo = [
       price: '100HRK(15€)',
       phone: '+385 35 367 617',
       address: 'Bana Josipa Jelačića 65A',
-      email: 'kata.krasnici@sb.htnet.hr'
+      email: 'kata.krasnici@sb.htnet.hr',
+      images: [
+        '.././images/hotels/7.jpeg',
+        '.././images/hotels/8.jpeg',
+        '.././images/hotels/9.jpeg'
+       ]
   
     },
     {
@@ -108,7 +123,12 @@ export const placeInfo = [
         price: '200HRK(27€)',
         phone: ' +385 35 363 259',
         address: 'Teslina 2',
-        email: 'slavonski.biser1973@vip.hr'
+        email: 'slavonski.biser1973@vip.hr',
+        images: [
+          '.././images/hotels/9.jpeg',
+          '.././images/hotels/10.jpeg',
+          '.././images/hotels/11.jpeg'
+         ]
     
       }
   
@@ -318,7 +338,12 @@ export const detailInfoHotels = {
     price: '520HRK(80€)',
     phone: '035 362 722',
     address: 'Trg kralja Tomislava 3',
-    email: 'hotel@hotel-kralj-tomislav.hr'
+    email: 'hotel@hotel-kralj-tomislav.hr',
+    images: [
+      '.././images/hotels/1.jpeg',
+      '.././images/hotels/2.jpeg',
+      '.././images/hotels/3.jpeg'
+     ]
   };
 //end of deatils hotel
 
@@ -378,15 +403,17 @@ export const detailInfoFood = {
 export const news = [
   {
     id: 1,
-    newsTitle: 'Lorem ipsum',
+    newsTitle: 'Chelsea stars were in tears',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+      'Chelsea stars were in tears on floor and ‘it felt like someone had died’ when Mourinho quit in 2007. The Blues squad were stunned into silence when the Portuguese boss sat them down in the dressing room to reveal his unexpected departure in September. ',
+    img: '.././images/news/chelsea.jpeg'
   },
   {
     id: 2,
-    newsTitle: 'Lorem ipsum',
+    newsTitle: 'Mass grave dug in London',
     newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+      'Funeral directors claimed they had up to 50 people waiting to be buried. Traditionally, an Islamic burial should take place within 24 hours of death. However, the so-called saff graves — from the Arabic for row — are said to be in accordance with the Muslim faith.',
+      img: '.././images/news/grave.jpeg'
   }
 ];
 //end of news
@@ -411,75 +438,76 @@ export const news = [
 export const nightlifeInfo = [
   {
     id: 1,
-    headerTitle: 'new york',
+    headerTitle: 'New York Club',
     headerSubTitle: 'Located in Nova Gradiska',
     headerText:
-      'Hotel Kralj Tomislav is an exclusive catering facility in the area of ​​Brodsko-Posavska Zupanija, which by its appearance, offer and services meets the high standards of catering and tourism',
-    title: 'Hotel Kralj Tomislav',
+      ' Its a great place to have fun, go out at night and have a good drink. drinks are relatively cheap, but there are also expensive things.',
+    title: 'New York Club',
     description:
-      ' Hotel Kralj Tomislav is an exclusive catering facility in the area of ​​Brodsko-Posavska Zupanija, which by its appearance, offer and services meets the high standards of catering and tourism of today. Located in the center of Nova Gradiška, 120 km away from Zagreb to the east, it is an ideal place for anyone who wants to feel the specificity of the area in which it is located. Categorized by the Ministry of Tourism with three (***) stars justifiably makes the very top of the offer of this beautiful area of ​​ours. Its name symbolizes prestige and elegance, and its clients have spread their enthusiasm in their region.',
-    img: '.././images/hotel-kralj-tomislav.jpg',
+      'New York is located in a Nova Gradiska, at 8 Zirinski Street. Its a great place to have fun, go out at night and have a good drink. drinks are relatively cheap, but there are also expensive things. They offer a variety of drinks, from the most expensive whiskey to the finest beer.',
+    img: '.././images/newyork.jpeg',
     maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711',
-      extras: [
-        "Free parking",
-        "Free wifi",
-        "Mini bar",
-        "Room service",
-        "Free breakfast",
-        "Comfortable beds"
-      ],
-    maxCapacity: '10 people',
-    price: '520HRK(80€)',
-    phone: '035 362 722',
-    address: 'Trg kralja Tomislava 3',
-    email: 'hotel@hotel-kralj-tomislav.hr'
+      'https://www.google.com/maps/d/embed?mid=10aIjTbT7Y0Ip9gBU7Nk8hvYMmhCy8JYI',
+    maxCapacity: '300 people',
+    price: '20HRK(3€)',
+    phone: '098 247 401',
+    address: 'Zrinskih 8',
+    email: 'marijan@newyork.hr',
+    images: [
+      '.././images/nightlife/1.jpeg',
+      '.././images/nightlife/2.jpeg',
+      '.././images/nightlife/3.jpeg',
+     ],
+     openFrom: '7h-5h'
     },
   {
     id: 2,
-    headerTitle: 'new york',
+    headerTitle: 'The Corner Pub',
     headerSubTitle: 'Located in Nova Gradiska',
     headerText:
-      'Hotel m',
-    title: 'Molestias officia excepturi',
+      'Our first ever GAA match in Croatia and of course traditional Irish celebrations like St. Patricks day. So please follow us on facebook for all the latest information.',
+    title: 'The Corner Pub',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
-    img: '.././images/hotel-kralj-tomislav.jpg',
+      'We pride ourselves on being the only genuine Irish pub in Croatia where you can watch all the Irish GAA matches live,  enjoy traditional Irish music and can also find some Irish newspapers if you want to catch up on whats happening in Ireland over a pint of OHaras.Corner Pub is also a focal point for the Irish community in Croatia with many events such as our recent Irish musical pub tour of NG, our first ever GAA match in Croatia and of course traditional Irish celebrations like St. Patricks day. So please follow us on facebook for all the latest information.',
+    img: '.././images/corner.jpeg',
     maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711',
-      extras: [
-        "Free parking",
-        "Free wifi",
-        "Mini bar",
-        "Room service",
-        "Free breakfast",
-        "Comfortable beds"
-      ]
-  
+      'https://www.google.com/maps/d/embed?mid=1Pb23TpVAKRdgjM7URAoFPOp1pzvGjMK_',
+    maxCapacity: '80 people',
+    price: '20HRK(3€)',
+    phone: '035 364 336',
+    address: 'Maksimilijana Benkovića 2',
+    email: 'm.me/thecornerpubcroatia',
+    images: [
+      '.././images/nightlife/4.jpeg',
+      '.././images/nightlife/5.jpeg',
+      '.././images/nightlife/6.jpeg'
+     ],
+     openFrom: '7h-2h'
     },
-  {
+    {
     id: 3,
-    headerTitle: 'new york',
+    headerTitle: 'Kavana EXIT',
     headerSubTitle: 'Located in Nova Gradiska',
     headerText:
-      'ts the high standards of catering and tourism',
-    title: 'Molestias officia excepturi',
+      'A great place for morning coffee and a great time on weekends and holidays! No.1 place in Nova Gradiska!',
+    title: 'Kavana EXIT',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
-    img: '.././images/hotel-kralj-tomislav.jpg',
+      'Do you want to have coffee with your friends in a superb atmosphere in a superb setting, without worrying about your kids being safe, or to spend the weekends partying, choose the new EXIT, a place in two locations, in Haulik Street 4th and 18th Slavosk border guards, also offers the opportunity for double enjoyment. These are catering establishments that win "on the first", spaces that have been the favorite gathering place of Novogradischans in the day and evening variants for the last 15 years.',
+    img: '.././images/kavana.jpeg',
     maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711',
-      extras: [
-        "Free parking",
-        "Free wifi",
-        "Mini bar",
-        "Room service",
-        "Free breakfast",
-        "Comfortable beds"
-      ]
-  
+      'https://www.google.com/maps/d/embed?mid=1uFflsRlzPfp7Ld0aqCu2Y7U-CTi6Ei5O',
+    maxCapacity: '100 people',
+    price: '20HRK(3€)',
+    phone: '035 361 666',
+    address: 'Slavonskih graničara 16',
+    email: '-',
+    images: [
+      '.././images/nightlife/7.jpeg',
+      '.././images/nightlife/8.jpeg',
+      '.././images/nightlife/9.jpeg'
+     ],
+     openFrom: '7h-24h'
     }
-  
 ];
 //end of nightlife
 
@@ -495,27 +523,26 @@ export const nightlifeInfo = [
 
 export const detailInfoNightlife = {
   id: 1,
-    headerTitle: 'new york',
+    headerTitle: 'New York Club',
     headerSubTitle: 'Located in Nova Gradiska',
-    headerText: 'rds of catering and tourism',
-    title: 'Hotel Kralj Tomislav',
+    headerText:
+      ' Its a great place to have fun, go out at night and have a good drink. drinks are relatively cheap, but there are also expensive things.',
+    title: 'New York Club',
     description:
-      ' Hotel Kralj Tomislav is an exclusive catering facility in the area of ​​Brodsko-Posavska Zupanija, which by its appearance, offer and services meets the high standards of catering and tourism of today. Located in the center of Nova Gradiška, 120 km away from Zagreb to the east, it is an ideal place for anyone who wants to feel the specificity of the area in which it is located. Categorized by the Ministry of Tourism with three (***) stars justifiably makes the very top of the offer of this beautiful area of ​​ours. Its name symbolizes prestige and elegance, and its clients have spread their enthusiasm in their region.',
-    img: '.././images/hotel-kralj-tomislav.jpg',
+      'New York is located in a Nova Gradiska, at 8 Zirinski Street. Its a great place to have fun, go out at night and have a good drink. drinks are relatively cheap, but there are also expensive things. They offer a variety of drinks, from the most expensive whiskey to the finest beer.',
+    img: '.././images/newyork.jpeg',
     maps:
-      'Trg kralja Tomislava 3, 35400, Nova Gradiška',
-    extras: [
-        "Free parking",
-        "Free wifi",
-        "Mini bar",
-        "Room service",
-        "Free breakfast",
-        "Comfortable beds"
-    ],
-    maxCapacity: '10 people',
-    price: '520HRK(80€)',
-    phone: '035 362 722',
-    address: 'Trg kralja Tomislava 3',
-    email: 'hotel@hotel-kralj-tomislav.hr'
+      'https://www.google.com/maps/d/embed?mid=10aIjTbT7Y0Ip9gBU7Nk8hvYMmhCy8JYI',
+    maxCapacity: '300 people',
+    price: '20HRK(3€)',
+    phone: '098 247 401',
+    address: 'Zrinskih 8',
+    email: 'marijan@newyork.hr',
+    images: [
+      '.././images/nightlife/1.jpeg',
+      '.././images/nightlife/2.jpeg',
+      '.././images/nightlife/3.jpeg'
+     ],
+     openFrom: '7h-5h'
   };
 //end of nightlife details

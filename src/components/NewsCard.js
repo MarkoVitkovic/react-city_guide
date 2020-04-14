@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import { InfoConsumer } from '../components/context'
-import Img from './assets/site-image/strmac.jpg'
 import './styleNews.css'
 
 export default class News extends Component {
+
+
     render() {
-        const { newsTitle, newsText} = this.props.item;
+        const { img, newsTitle, newsText} = this.props.item;
         return (
             <InfoConsumer>
                 {value => (
                    <div className="card container mt-2 mb-5 p-3 card-news">
                         <div className="row mt-4">
                             <div className="col-md-4">
-                                <img className="img-fluid" src={Img} alt=""/>
+                                <img className="img-fluid" src={img} alt=""/>
                             </div>
                             <div className="col-md-8">
                                 <div className="row">
