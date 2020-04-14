@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {InfoConsumer} from '../context'
 import Info from '../HotelInfo';
+import '../styleHotels.css'
 
 export default class Hotels extends Component {
     render() {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { InfoConsumer } from '../context'
 import Reviews from '../Reviews'
+import '../styleNightlife.css'
 
 export default class DetailsNightlife extends Component {
     render() {

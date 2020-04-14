@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { InfoConsumer } from '../context'
 import styled from 'styled-components'
 import Reviews from '../Reviews'
+import '../styleHotels.css'
 
 export default class Details extends Component {
     render() {

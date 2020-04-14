@@ -139,31 +139,100 @@ export const foodInfo = [
     headerTitle: 'Restoran Dukat',
     headerSubTitle: 'Located in Nova Gradiska',
     headerText:
-      'ndards of catering and tourism',
-    title: 'Molestias officia excepturi',
+      'It is intended for all lovers of Slavonic customs, hedonists who want good Slavonian food and drinks. The restaurant is located at the eastern entrance to the city, not far from the center.',
+    title: 'Restoran Dukat',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
-    img: '.././images/dukat.jpeg',
+      'Born in the heart of the Slavonian plain in the small (for many too small) village of Gornji Crnogovci, Staro Petrovo Selo municipality. Graduated from elementary, middle and high school, got married and had wonderful children at a time when the Homeland War had changed many things and many dreams had collapsed. They worked, learned from others, traveled and looked for a way to stay in Slavonia. .It is intended for all lovers of Slavonic customs, hedonists who want good Slavonian food and drinks. The restaurant is located at the eastern entrance to the city, not far from the center, and again, close enough to the traffic hub Požega-Sl. Brod-highway (Županja-Zagreb).',
+    img: '.././images/dukat.jpg',
     maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711',
+      'https://www.google.com/maps/d/embed?mid=1LgJsb2wfZn4MzsjlvjsVQ4UAKihNTFXL',
       images: [
-       '.././images/kraljtomislav.jpg',
-       '.././images/kraljtomislav.jpg',
-       '.././images/kraljtomislav.jpg'
-      ]
+       '.././images/food/1.jpeg',
+       '.././images/food/2.jpeg',
+       '.././images/food/3.jpeg'
+      ],
+      price: '30HRK(5€)',
+      phone: '091/440 40 02',
+      address: 'Bana Ivana Mažuranića 27',
+      email: ' ari.agro@hi.t-com.hr',
+      maxCapacity: '100 people',
+      rooms: 'rooms available',
+      breakfast: 'free breakfast'
     },
   {
     id: 2,
-    headerTitle: 'Restoran Dukat',
+    headerTitle: 'Soho Bar',
     headerSubTitle: 'Located in Nova Gradiska',
     headerText:
-      'ndards of catering and tourism',
-    title: 'Molestias officia excepturi',
+      'We place special emphasis on modern cuisine in which our chefs prepare the most delicious meals, all with the desire to provide our guests with top quality service in accordance with high world standards.',
+    title: 'Soho Bar',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
-    img: '.././images/hotel-kralj-tomislav.jpg',
+      'SOHO Bar is located in the heart of Nova Gradiška overlooking the city park and offers a rich selection of international cuisine and drinks. The stylishly designed space is adorned with industrial details, and the gentle light complements the cinematic atmosphere. We place special emphasis on modern cuisine in which our chefs prepare the most delicious meals, all with the desire to provide our guests with top quality service in accordance with high world standards.',
+    img: '.././images/soho.jpg',
     maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
+      'https://www.google.com/maps/d/embed?mid=1lxY6OykSKQwvl3O6_Jf4nrlK1nBlCObQ',
+      images: [
+       '.././images/food/10.jpeg',
+       '.././images/food/11.jpg',
+       '.././images/food/12.jpeg'
+      ],
+      price: '30HRK(5€)',
+      phone: '035/444 222',
+      address: 'Alojzija Stepinca 2a',
+      email: '-',
+      maxCapacity: '30 people',
+      rooms: 'not available',
+      breakfast: 'not breakfast'  
+  },
+  {
+    id: 3,
+    headerTitle: 'Pizzeria Elite',
+    headerSubTitle: 'Located in Nova Gradiska',
+    headerText:
+      'They offer a variety of pizzas, grilled dishes, fish, pasta and other dishes to order. They also offer a delivery service.',
+    title: 'Pizzeria Elite',
+    description:
+      'Pizzeria Elite, is located in Nova Gradiška, Zrinskih 8 with NEW YORK The Club. With them, just like Italy, you can try different types of pizza, but also fish and grilled dishes, and they will be happy to supply you. They offer a variety of pizzas, grilled dishes, fish, pasta and other dishes to order. They also offer a delivery service.',
+    img: '.././images/elite.jpeg',
+    maps:
+      'https://www.google.com/maps/d/embed?mid=1hWO8gdr3p42OgpTW1gVx_tcId36IcWJ1',
+      images: [
+       '.././images/food/7.jpeg',
+       '.././images/food/8.jpeg',
+       '.././images/food/9.jpeg'
+      ],
+      price: '20HRK(3€)',
+      phone: '035/ 361-866',
+      address: 'Zrinskih 8 ',
+      email: '-',
+      maxCapacity: 'Only shipment',
+      rooms: 'not available',
+      breakfast: 'not breakfast'  
+  },
+  {
+    id: 4,
+    headerTitle: 'Fast Food MASKE',
+    headerSubTitle: 'Located in Nova Gradiska',
+    headerText:
+      'They offer a variety of grilled dishes, awesome sendwiches and other dishes to order. They also offer a delivery service.',
+    title: 'Fast Food MASKE',
+    description:
+      'Fast food outlets are take-away or take-out providers that promise quick service. Such fast food outlets often come with a "drive-through" service that lets customers order and pick up food from their vehicles. Others have indoor or outdoor seating areas where customers can eat on-site. In recent times, the boom in IT services has allowed customers to order food from their homes through their smart phone apps.',
+    img: '.././images/maske.jpg',
+    maps:
+      'https://www.google.com/maps/d/embed?mid=1DYIfjR5dsr6YZATkaqzWROi1t8BrZTrN',
+      images: [
+       '.././images/food/4.jpeg',
+       '.././images/food/5.jpeg',
+       '.././images/food/6.jpeg'
+      ],
+      price: '10HRK(1.5€)',
+      phone: '035 364 030',
+      address: ' Ljudevita Gaja 9 ',
+      email: '-',
+      maxCapacity: 'Only shipment',
+      rooms: 'not available',
+      breakfast: 'not breakfast'  
   }
   
 ];
@@ -276,39 +345,29 @@ export const detailInfoHotels = {
 //details food
 export const detailInfoFood = {
   id: 1,
-  headerTitle: 'Lorem ipsum',
-  headerSubTitle: 'soluta numquam',
-  headerText:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit laboriosam cum recusandae quas? Natus, alias architecto error, sunt quae non placeat a eius minus maiores libero laborum perferendis, nobis qui?',
-  title: 'Molestias officia excepturi',
-  description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
-  img: '.././images/dukat.jpeg',
-  maps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711',
+    headerTitle: 'Restoran Dukat',
+    headerSubTitle: 'Located in Nova Gradiska',
+    headerText:
+      'It is intended for all lovers of Slavonic customs, hedonists who want good Slavonian food and drinks. The restaurant is located at the eastern entrance to the city, not far from the center.',
+    title: 'Restoran Dukat',
+    description:
+      'Born in the heart of the Slavonian plain in the small (for many too small) village of Gornji Crnogovci, Staro Petrovo Selo municipality. Graduated from elementary, middle and high school, got married and had wonderful children at a time when the Homeland War had changed many things and many dreams had collapsed. They worked, learned from others, traveled and looked for a way to stay in Slavonia. .It is intended for all lovers of Slavonic customs, hedonists who want good Slavonian food and drinks. The restaurant is located at the eastern entrance to the city, not far from the center, and again, close enough to the traffic hub Požega-Sl. Brod-highway (Županja-Zagreb).',
+    img: '.././images/dukat.jpeg',
+    maps:
+    'https://www.google.com/maps/d/embed?mid=1LgJsb2wfZn4MzsjlvjsVQ4UAKihNTFXL',
     images: [
-      {
-        fields: {
-          file: {
-            url: dukat1
-          }
-        }
-      },
-      {
-        fields: {
-          file: {
-            url: dukat2
-          }
-        }
-      },
-      {
-        fields: {
-          file: {
-            url: dukat3
-          }
-        }
-      }
-    ]
+      '.././images/food/1.jpeg',
+      '.././images/food/2.jpeg',
+      '.././images/food/3.jpeg'
+     ],
+     price: '30HRK(5€)',
+     phone: '091/440 40 02',
+     address: 'Bana Ivana Mažuranića 27',
+     email: ' ari.agro@hi.t-com.hr',
+     maxCapacity: '100 people',
+     rooms: 'rooms available',
+     breakfast: 'free breakfast'
+    
 
   };
 //end of details food

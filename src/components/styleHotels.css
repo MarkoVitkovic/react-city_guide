@@ -1,0 +1,29 @@
+/*hotels page*/
+.hotels{
+    text-align: center;
+    justify-content: center;
+    background-image: url(../components/assets/site-image/hotel1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+  }
+  .hotels h1{
+    font-size: 50px;
+    padding-top: 200px;
+    color: white;
+  }
+  .hotels div{
+      width: 5rem;
+      height: 5px;
+      background: red;
+      margin: 1.7rem auto;
+      margin-top: 40px;
+  }
+  .hotels p{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+  }
+  /*end hotels page*/
+  

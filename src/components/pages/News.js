@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { InfoConsumer } from '../context'
 import NewsCard from '../NewsCard'
 import Img from '../assets/site-image/news.jpeg'
-
+import '../styleNews.css'
 
 
 export default class News extends Component {

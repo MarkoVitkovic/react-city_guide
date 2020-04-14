@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {InfoConsumer} from '../components/context'
 import {Link} from 'react-router-dom'
 import './styleCard.css'
+import './styleFood.css'
 
 export default class Info extends Component {
     render() {
@@ -41,7 +42,7 @@ export default class Info extends Component {
                             <div className="my-flip-side my-flip-back my-flip-back-1">
                                 <div className="my-flip-back-inner">
                                     <div className="my-flip-price">
-                                        <h4>From</h4>
+                                        <h4>From:</h4>
                                         <h3>{price}</h3>
                                     </div>
                                     <div className="my-flip-back-text">

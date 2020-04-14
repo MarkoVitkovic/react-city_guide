@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {InfoConsumer} from '../context'
 import Info from '../NightlifeInfo';
+import '../styleNightlife.css'
 
 export default class Nightlife extends Component {
     render() {

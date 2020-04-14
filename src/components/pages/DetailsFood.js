@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { InfoConsumer } from '../context'
 import Reviews from '../Reviews'
+import '../styleFood.css'
 
 export default class DetailsFood extends Component {
     render() {
@@ -9,23 +10,27 @@ export default class DetailsFood extends Component {
                 {data =>{
                     const{
                         headerTitle,
-                        headerSubTitle,
-                        headerText,
                         img,
-                        title,
                         images,
                         maps,
+                        price,
+                        breakfast,
+                        maxCapacity,
+                        rooms,
                         description
                     } = data.detailInfoFood;
 
                     return(
                     <>
+                        <div className="food-details">
+                            <div className="title-food-main">
+                                <h1>{headerTitle}</h1>
+                            </div>
+                        </div>
                         <div className="container">
                             <div className="title-food">
-                                <h1>{headerTitle}</h1>
-                                <div className="spliter-details"/>
-                                <h4>{headerSubTitle}</h4>
-                                <h5>{headerText}</h5>
+                                <h1>Bon Appétit</h1>
+                                <div className="divred" />
                                 <img src={img} alt="img" className="detail-food-image"/>
                                 <div className="food-single-images">
                                     {images.map((item, index) => {return <img key={index} src={item} alt=""/>})}
@@ -39,17 +44,12 @@ export default class DetailsFood extends Component {
                                             </article>
                                             <article className="info text-left">
                                                 <h3>Info</h3>
-                                                <h6>price : 56</h6>
-                                                <h6>max capacity : 10 </h6>
+                                                <h6>price : {price}</h6>
+                                                <h6>max capacity : {maxCapacity} </h6>
+                                                <h6>rooms: {rooms}</h6>
+                                                <h6>breakfast: {breakfast}</h6>
                                             </article>
-                                            </div>
-                                            <section className="main-extras">
-                                            <h3 className="text-left">Extras</h3>
-                                            <ul className="extras text-left">
-                                            lalala
-                                            </ul>
-                                        </section>
-                                            
+                                            </div>       
                             </section>
                             <div className="map-rev">
                             <div className="mt-5">

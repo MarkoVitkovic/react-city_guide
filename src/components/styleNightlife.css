@@ -1,0 +1,24 @@
+/*nightlife*/
+.nightlife{
+    background-image: url(../components/assets/site-image/nightlife.jpeg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 35px;
+  }
+  .nightlife-text{
+    text-align: center;
+  }
+  .nightlife-text h1{
+    font-size: 50px;
+    color:var(--dark);
+  }
+  .nightlife-text div{
+      width: 5rem;
+      height: 5px;
+      background: red;
+      margin: 1.7rem auto;
+      margin-top: 40px;
+  }
+  /*end of nightlife*/

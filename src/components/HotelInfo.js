@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {InfoConsumer} from '../components/context'
 import {Link} from 'react-router-dom'
 import './styleCard.css'
+import './styleHotels.css'
 
 export default class Info extends Component {
     render() {
