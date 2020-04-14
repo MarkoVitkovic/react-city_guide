@@ -14,6 +14,7 @@ import ContactUs from './components/pages/ContactUs';
 import NotFound from './components/pages/NotFound';
 import DetailsFood from './components/pages/DetailsFood';
 import DetailsNightlife from './components/pages/DetailsNightlife'
+import Subscribe from './components/layouts/footer-component/Subscribe';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/detailsnightlife" component={DetailsNightlife}/>
         <Route path="/hotels" component={Hotels}/>
         <Route path="/contactus" component={ContactUs}/>
+        <Route path="/subscribe" component={Subscribe}/>
         <Route component={NotFound}/>
       </Switch>
       <Footer/>
