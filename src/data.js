@@ -1,11 +1,3 @@
-import dukat1 from "./components/assets/site-image/cernik.jpg";
-import dukat2 from "./components/assets/site-image/food.jpg";
-import dukat3 from "./components/assets/site-image/gradiska.jpg";
-
-
-
-
-
 
 
 //Hotels
