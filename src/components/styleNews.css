@@ -65,6 +65,27 @@
     background-color: #FF69B4;
     color: white;
   }
-
+  .like-unlike{
+    padding-left: 620px;
+    padding-top: 30px;
+  }
+  @media screen and (max-width: 1200px){
+    .like-unlike{
+      padding-left: 520px;
+      padding-top: 30px;
+    }
+  }
+  @media screen and (max-width: 990px){
+    .like-unlike{
+      padding-left: 320px;
+      padding-top: 30px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .like-unlike{
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+  }
   
   /*end of news*/

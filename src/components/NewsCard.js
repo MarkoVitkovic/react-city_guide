@@ -41,7 +41,7 @@ export default class News extends Component {
                                         <p>{newsText}</p>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row like-unlike">
                                     <button className={btn_class_like}  onClick={this.changeColor.bind(this)}><i className="far fa-thumbs-up"></i></button>
                                     <button className={btn_class_unlike}  onClick={this.changeColorUnlike.bind(this)}><i className="far fa-thumbs-down"></i></button>
                                 </div>
