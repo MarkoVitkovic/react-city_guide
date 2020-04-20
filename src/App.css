@@ -23,6 +23,7 @@
 }
 
 /*footer*/
+
 .footer h4{
   font-size: 20px;
 }
@@ -30,25 +31,16 @@
   font-size: 10px;
   padding-top: 9px;
 }
-.info-footer li{
- font-size: 13px;
- padding-top: 15px;
-}
 .categories-footer{
   font-size: 13px;
-  padding-left: 30px;
+  padding-left: 0;
+}
+.categories-footer a{
+  color: black;
 }
 .pp{
   padding-top: 15px;
 }
-.dark-font {
-  color: black;
-}
-
-
-
-
-
 
 /*not found page*/
 .banner {
@@ -135,8 +127,5 @@
   padding-left: 10px;
 }
 /*end of socials*/
-
-
-
 
 

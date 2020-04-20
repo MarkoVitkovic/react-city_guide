@@ -20,9 +20,9 @@ export default class Info extends Component {
         return (
             <InfoConsumer>
             {value => (
-                <section className="section-tours">
-                <div className="row">
-                <div className="col-lg-4 mb-4">
+                <section className="section-tours p-0 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                <div className="col-12">
+                <div className="col-12 p-0 mb-4">
                     <div className="my-flip-container">
                         <div className="my-flip-inner my-flip-right">
                             <div className="my-flip-inner-wrapper">

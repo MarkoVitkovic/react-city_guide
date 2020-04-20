@@ -13,7 +13,7 @@ export default class Nightlife extends Component {
                     <h1>Nightlife</h1>
                     <div/>
                 </div>
-                <div className="container pt-5 pb-5">            
+                <div className="container pt-5 pb-5" style={{display: "flex", flexWrap: "wrap"}}>            
                 <InfoConsumer>
                 {
                     value => {return value.nightlife.map(item => {

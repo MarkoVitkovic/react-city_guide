@@ -13,7 +13,7 @@ export default class Food extends Component {
                             <h1>Food and drink</h1>
                             <div />
                         </div>
-                        <div className="container pt-5 pb-5">            
+                        <div className="container pt-5 pb-5" style={{display: "flex", flexWrap: "wrap"}}>            
                             <InfoConsumer>
                             {
                                 value => {return value.food.map(item => {
