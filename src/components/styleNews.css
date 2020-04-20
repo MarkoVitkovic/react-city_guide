@@ -47,10 +47,10 @@
     background-color: #555555;
     color: white;
   }
-  .unlike{
-    background-color: white;
+  .clicked{
+    background-color: #FFC0CB;
     color: black;
-    border: 2px solid #555555;
+    border: 2px solid #FF69B4;
     padding: 7px 15px;
     text-align: center;
     text-decoration: none;
@@ -61,9 +61,10 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  .unlike:hover {
-    background-color: #555555;
+  .clicked:hover {
+    background-color: #FF69B4;
     color: white;
   }
+
   
   /*end of news*/

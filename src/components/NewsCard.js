@@ -3,10 +3,25 @@ import { InfoConsumer } from '../components/context'
 import './styleNews.css'
 
 export default class News extends Component {
+    constructor(){
+        super();
 
+        this.state = {
+           clickedLike: true,
+           clickedUnlike: true
+        }
+    }
+    changeColor(){
+        this.setState({clickedLike: !this.state.clickedLike})
+     }
+     changeColorUnlike(){
+        this.setState({clickedUnlike: !this.state.clickedUnlike})
+     }
 
     render() {
         const { img, newsTitle, newsText} = this.props.item;
+        let btn_class_like = this.state.clickedLike ? "like" : "clicked";
+        let btn_class_unlike = this.state.clickedUnlike ? "like" : "clicked";
         return (
             <InfoConsumer>
                 {value => (
@@ -27,8 +42,8 @@ export default class News extends Component {
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <button className="like"><i className="far fa-thumbs-up"></i></button>
-                                    <button className="unlike"><i className="far fa-thumbs-down"></i></button>
+                                    <button className={btn_class_like}  onClick={this.changeColor.bind(this)}><i className="far fa-thumbs-up"></i></button>
+                                    <button className={btn_class_unlike}  onClick={this.changeColorUnlike.bind(this)}><i className="far fa-thumbs-down"></i></button>
                                 </div>
                             </div>
                         </div>  
