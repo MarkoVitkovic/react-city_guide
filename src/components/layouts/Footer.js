@@ -69,6 +69,7 @@ const FooterCon = styled.footer`
 .footer-bottom{
     padding-top: 3rem;
     padding-bottom: 1rem;
+    text-align: center;
 }
 ul li a{
     color: var(--dark);
